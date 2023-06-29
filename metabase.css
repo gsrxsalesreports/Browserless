@@ -1,21 +1,16 @@
-html {
-default-font-family: "Lato";
+:root {
+    --default-font-family: "Lato";
 }
 
-.layout-centered, ._3-Ogs {
+.layout-centered, .3-Ogs, .6qWRp {
     align-items: center;
     justify-content: center;
 }
-.flex, ._38618 {
+
+.flex, .38618, .2Ab1v {
     display: flex;
 }
-.layout-centered, ._6qWRp {
-    align-items: center;
-    justify-content: center;
-}
-.flex, ._2Ab1v {
-    display: flex;
-}
+
 body, div, nav, article, section, main, header, footer, input, form, table, fieldset, textarea, ul, li, span {
     box-sizing: border-box;
 }
@@ -23,6 +18,7 @@ body, div, nav, article, section, main, header, footer, input, form, table, fiel
 div {
     display: block;
 }
+
 body {
     font-family: var(--default-font-family), sans-serif;
     font-size: 0.875em;
@@ -39,11 +35,11 @@ body {
 }
 
 .parent {
-  display: block;
+    display: block;
 }
 
 .wrapper {
-  display: block;
-  float: left;
-  break-inside: avoid;
+    display: block;
+    float: left;
+    break-inside: avoid;
 }
