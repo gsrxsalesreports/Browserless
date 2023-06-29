@@ -37,3 +37,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.parent {
+  display: block;
+}
+
+.wrapper {
+  display: block;
+  float: left;
+  break-inside: avoid;
+}
